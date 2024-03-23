@@ -1,4 +1,7 @@
 .principalBackground {
+    padding-left: 13% !important;
+    padding-right: 13% !important;
+
     height: 100vh;
 
     background-image: url("../../assets/images/PrincipalBackground.jpg");
@@ -8,8 +11,44 @@
     background-attachment: fixed;
 }
 
+.titleHome1 {
+    padding-top: 50%;
+    margin-bottom: 0px;
+
+    font-size: 2rem;
+
+    color: #D0D6F9;
+}
+
+.titleHome2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10rem;
+
+    color: #FFFFFF;
+}
+
+.titleHome3 {
+    font-size: 1.2rem;
+    text-align: justify;
+
+    color: #D0D6F9;
+}
+
 @media only screen and (max-width: 700px) {
     .principalBackground {
         background-image: url("../../assets/images/SecondaryBackground.jpg");
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .titleHome2 {
+        font-size: 6.5rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .titleHome2 {
+        font-size: 5rem;
     }
 }
