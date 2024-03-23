@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+@font-face {
+  font-family: bellefair;
+  src: url("./assets/font/Bellefair-Regular.ttf");
+}
+
+.bellefair {
+  font-family: bellefair;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

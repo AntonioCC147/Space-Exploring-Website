@@ -1,0 +1,69 @@
+.navbarComponent {
+    margin-top: 20px;
+    margin-left: 40%;
+    height: 75px;
+
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(60, 60, 60, 0.4) !important;
+}
+
+.navbar-toggler {
+    margin-left: 90% !important;
+
+    border-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../../assets/icons/NavbarBurger.png') !important;
+}
+
+.btn-close {
+    --bs-btn-close-opacity: 1 !important;
+    background-image: url('../../assets/icons/NavbarButton.png') !important;
+}
+
+.navbarLine {
+    margin-left: -45%;
+    width: 50%;
+}
+
+.navabrStar {
+    position: absolute;
+
+    margin-top: -25px;
+    margin-left: -60%;
+}
+
+.navbarText {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 1.2rem !important;
+
+    color: #FFFFFF !important;
+}
+
+@media only screen and (max-width: 765px) {
+    .offcanvas-body, .offcanvas-header {
+        backdrop-filter: blur(10px) !important;
+        background-color: rgba(60, 60, 60, 0.4) !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-toggler {
+        margin-left: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-toggler {
+        margin-left: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .navbarLine {
+        display: none;
+    }
+}
