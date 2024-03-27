@@ -1,0 +1,12 @@
+.planetsBackground {
+    padding-left: 13% !important;
+    padding-right: 13% !important;
+
+    height: 100vh;
+
+    background-image: url("../../assets/images/PlanetsBackground.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-attachment: fixed;
+}

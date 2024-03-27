@@ -30,7 +30,7 @@ export default function NavbarComponent() {
                     <Offcanvas.Body>
                         <Nav className="justify-content-start flex-grow-1 pe-3">
                             <Nav.Link href="/" className={isCurrentPage('/')}><b>00 </b>HOME</Nav.Link>
-                            <Nav.Link href="/1" className={isCurrentPage('/1')}><b>01 </b>PLANETS</Nav.Link>
+                            <Nav.Link href="/planets" className={isCurrentPage('/planets')}><b>01 </b>PLANETS</Nav.Link>
                             <Nav.Link href="/2" className={isCurrentPage('/2')}><b>02 </b>CREW</Nav.Link>
                             <Nav.Link href="/3" className={isCurrentPage('/3')}><b>03 </b>TECHNOLOGY</Nav.Link>
                         </Nav>
