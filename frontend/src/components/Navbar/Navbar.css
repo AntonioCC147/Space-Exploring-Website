@@ -61,7 +61,7 @@
     content: '';
     height: 2px;
 
-    background-color: #FFFF;
+    background-color: #FFFFFF;
 }
 
 .navbarText2 {
@@ -90,7 +90,7 @@
 }
 
 .navbarText2:hover::after {
-    background-color: #FFFFFF;
+    background-color: #D0D6F9;
 }
 
 .offcanvas {

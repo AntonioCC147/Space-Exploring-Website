@@ -51,6 +51,10 @@
     width: 200px !important;
 }
 
+.explore:hover {
+    content: url("../../assets/images/ExploreHover.png");
+}
+
 @media only screen and (max-width: 1000px) {
     .explore {
         margin-left: 80% !important;

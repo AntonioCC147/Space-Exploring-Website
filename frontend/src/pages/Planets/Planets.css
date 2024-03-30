@@ -2,11 +2,89 @@
     padding-left: 13% !important;
     padding-right: 13% !important;
 
-    height: 100vh;
+    min-height: 100vh;
 
     background-image: url("../../assets/images/PlanetsBackground.png");
     background-repeat: no-repeat;
     background-position: 50% 20%;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.planetsText1 {
+    margin-top: calc(100vh - 600px);
+
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+    color: #FFFFFF
+}
+
+.planetsBox {
+    margin-top: calc(100vh - 550px);
+
+    color: #FFFFFF;
+}
+
+.isPlanetActive {
+    margin: 0px 10px 20px 10px;
+
+    border: none;
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+    display: inline-block;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.isPlanetActive::after{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.isPlanetInactive {
+    margin: 0px 10px 20px 10px;
+
+    border: none;
+
+    color: #D0D6F9;
+    background-color: transparent;
+
+    display: inline-block;
+}
+
+.isPlanetInactive:hover {
+    border-bottom: 2px solid #D0D6F9;
+}
+
+.planetImage {
+    margin-top: 50px;
+
+    width: 450px;
+}
+
+.planetsName {
+    font-size: 5rem;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.planetDescription {
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #D0D6F9;
+}
+
+@media only screen and (max-width: 767px) {
+    .planetsBox {
+        margin-top: 0px !important;
+    }
+    .planetsText1 {
+        text-align: center;
+    }
+    .planetsName {
+        text-align: center;
+    }
 }

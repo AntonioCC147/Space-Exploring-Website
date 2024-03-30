@@ -19,7 +19,7 @@ export default function Home() {
                     </p>
                 </Col>
                 <Col sm={12} md={6} className="exploreContainer">
-                    <a href="/"><img src={Explore} className="explore" alt="Explore"/></a>
+                    <a href="/planets"><img src={Explore} className="explore" alt="Explore"/></a>
                 </Col>
             </Row>
         </Container>
