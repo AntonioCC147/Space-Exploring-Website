@@ -46,9 +46,21 @@
 }
 
 .explore {
-    margin-left: 70% !important;
+    margin-left: 100% !important;
 
     width: 200px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .explore {
+        margin-left: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .explore {
+        margin-left: 60% !important;
+    }
 }
 
 @media only screen and (max-width: 700px) {
