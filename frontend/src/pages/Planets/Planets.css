@@ -116,6 +116,8 @@
         text-align: center;
     }
     .planetImgBox {
+        margin-top: -50px !important;
+
         display: flex;
         justify-content: center;
         align-items: center;
