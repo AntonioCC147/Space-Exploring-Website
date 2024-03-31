@@ -39,6 +39,16 @@ export default function Planets() {
                             <p className="planetsName">{planet.name}</p>
                             <p className="planetDescription">{planet.description}</p>
                             <img src={PlanetLine} alt="PlanetLine" style={{width: "100%"}}/>
+                            <Row>
+                                <Col sm={12} md={6}>
+                                    <p className="planetDistance">AVERAGE DISTANCE</p>
+                                    <p className="planetSattelites">{planet.distance}</p>
+                                </Col>
+                                <Col sm={12} md={6}>
+                                    <p className="planetDistance">SATELLITES NUMBER</p>
+                                    <p className="planetSattelites">{planet.satellites}</p>
+                                </Col>
+                            </Row>
                         </div>
                     </Col>
                 </Row>

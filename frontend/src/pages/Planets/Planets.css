@@ -58,7 +58,9 @@
 }
 
 .planetImage {
-    width: 80%;
+    margin-top: 50px;
+
+    width: 400px;
 }
 
 .planetsName {
@@ -75,6 +77,36 @@
     color: #D0D6F9;
 }
 
+.planetDistance {
+    margin-bottom: 0px;
+
+    font-size: 1rem;
+    text-align: left;
+
+    color: #D0D6F9;
+}
+
+.planetSattelites {
+    margin-top: 0px;
+
+    font-size: 2rem;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1045px) {
+    .planetImage {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .planetImage {
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .planetsBox {
         margin-top: 25px !important;
@@ -83,13 +115,13 @@
         margin-top: 100px !important;
         text-align: center;
     }
-    .planetsName {
-        text-align: center;
-    }
     .planetImgBox {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .planetsName, .planetDistance, .planetSattelites {
+        text-align: center;
     }
 }
 
