@@ -2,7 +2,7 @@
     padding-left: 13% !important;
     padding-right: 13% !important;
 
-    height: 100vh;
+    min-height: 100vh;
 
     background-image: url("../../assets/images/PrincipalBackground.jpg");
     background-repeat: no-repeat;
