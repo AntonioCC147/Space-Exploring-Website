@@ -11,6 +11,12 @@
     background-attachment: fixed;
 }
 
+.planetsBox {
+    margin-top: calc(100vh - 550px);
+
+    color: #FFFFFF;
+}
+
 .planetsText1 {
     margin-top: calc(100vh - 600px);
 
@@ -18,12 +24,6 @@
     font-weight: bolder;
 
     color: #FFFFFF
-}
-
-.planetsBox {
-    margin-top: calc(100vh - 550px);
-
-    color: #FFFFFF;
 }
 
 .isPlanetActive {
@@ -58,9 +58,7 @@
 }
 
 .planetImage {
-    margin-top: 50px;
-
-    width: 450px;
+    width: 80%;
 }
 
 .planetsName {
@@ -79,12 +77,31 @@
 
 @media only screen and (max-width: 767px) {
     .planetsBox {
-        margin-top: 0px !important;
+        margin-top: 25px !important;
     }
     .planetsText1 {
+        margin-top: 100px !important;
         text-align: center;
     }
     .planetsName {
         text-align: center;
+    }
+    .planetImgBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.rotating {
+    animation: rotate 150s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }

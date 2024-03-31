@@ -19,7 +19,9 @@ export default function Planets() {
                 <Row>
                     <Col sm={12} md={6}>
                         <p className="planetsText1"><span style={{ color: "gray", marginRight: "20px" }}>01</span>PICK YOUR DESTINATION</p>
-                        <img src={require(`../../assets/images/${selectedPlanet}.png`)} className="planetImage" alt="Planet"/>
+                        <div className="planetImgBox">
+                            <img src={require(`../../assets/images/planets/${selectedPlanet}.png`)} className="planetImage rotating" alt="Planet"/>
+                        </div>
                     </Col>
                     <Col sm={12} md={6} className="text-center">
                         <div className="planetsBox">
@@ -27,18 +29,16 @@ export default function Planets() {
                             <button onClick={() => setSelectedPlanet("Venus")} className={selectedPlanet === "Venus" ? "isPlanetActive" : "isPlanetInactive"}>VENUS</button>
                             <button onClick={() => setSelectedPlanet("Earth")} className={selectedPlanet === "Earth" ? "isPlanetActive" : "isPlanetInactive"}>EARTH</button>
                             <button onClick={() => setSelectedPlanet("Mars")} className={selectedPlanet === "Mars" ? "isPlanetActive" : "isPlanetInactive"}>MARS</button>
-                            <button onClick={() => setSelectedPlanet("Jupiter")} className={selectedPlanet === "Jupiter" ? "isPlanetActive" : "isPlanetInactive"}>JUPITERN</button>
+                            <button onClick={() => setSelectedPlanet("Jupiter")} className={selectedPlanet === "Jupiter" ? "isPlanetActive" : "isPlanetInactive"}>JUPITER</button>
                             <button onClick={() => setSelectedPlanet("Saturn")} className={selectedPlanet === "Saturn" ? "isPlanetActive" : "isPlanetInactive"}>SATURN</button>
                             <button onClick={() => setSelectedPlanet("Uranus")} className={selectedPlanet === "Uranus" ? "isPlanetActive" : "isPlanetInactive"}>URANUS</button>
                             <button onClick={() => setSelectedPlanet("Neptun")} className={selectedPlanet === "Neptun" ? "isPlanetActive" : "isPlanetInactive"}>NEPTUN</button>
                             <button onClick={() => setSelectedPlanet("Pluto")} className={selectedPlanet === "Pluto" ? "isPlanetActive" : "isPlanetInactive"}>PLUTO</button>
                         </div>
-                        <div>
-                            <div key={index}>
-                                <p className="planetsName">{planet.name}</p>
-                                <p className="planetDescription">{planet.description}</p>
-                                <img src={PlanetLine} alt="PlanetLine" style={{width: "100%"}}/>
-                            </div>
+                        <div key={index}>
+                            <p className="planetsName">{planet.name}</p>
+                            <p className="planetDescription">{planet.description}</p>
+                            <img src={PlanetLine} alt="PlanetLine" style={{width: "100%"}}/>
                         </div>
                     </Col>
                 </Row>
