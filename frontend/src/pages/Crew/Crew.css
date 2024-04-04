@@ -1,0 +1,93 @@
+.crewBackground {
+    padding-left: 13% !important;
+    padding-right: 13% !important;
+
+    min-height: 100vh;
+
+    background-image: url("../../assets/images/CrewBackground.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.crewText1 {
+    padding-top: 135px;
+
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+    color: #FFFFFF;
+}
+
+.crewFunction {
+    margin-top: 100px;
+    margin-bottom: 0px;
+
+    font-size: 2rem;
+    text-align: left;
+
+    color: gray;
+}
+
+.crewName {
+    margin-top: 0px;
+
+    font-size: 3rem;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.crewDescription {
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #D0D6F9;
+}
+
+.crewImageButton {
+    width: 13px;
+}
+
+.crewButton {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.crewButtonBox {
+    margin-top: 75px;
+}
+
+.crewBox {
+    position: relative;
+
+    min-height: 100vh;
+    padding-top: 175px;
+
+    color: #FFFFFF;
+}
+
+.crewImage {
+    position: absolute;
+
+    width: 450px;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%); 
+}
+
+@media only screen and (max-width: 767px) {
+    .crewText, .crewFunction, .crewName, .crewDescription, .crewButtonBox {
+        text-align: center;
+    }
+    .crewButtonBox {
+        margin-top: 25px;
+    }
+    .crewBox {
+        min-height: 60vh;
+    }
+    .crewImage {
+        width: 350px;
+    }
+}
