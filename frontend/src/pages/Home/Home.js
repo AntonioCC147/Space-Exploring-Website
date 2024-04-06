@@ -11,7 +11,7 @@ export default function Home() {
         <Container fluid className="principalBackground bellefair">
             <Row>
                 <Col sm={12} md={6}>
-                    <p className="titleHome1">SO, YOU WANT TO TRAVE TO</p>
+                    <p className="titleHome1">SO, YOU WANT TO TRAVEL TO</p>
                     <p className="titleHome2">SPACE</p>
                     <p className="titleHome3">
                         Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on

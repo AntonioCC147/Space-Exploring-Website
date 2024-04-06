@@ -78,8 +78,11 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .crewText, .crewFunction, .crewName, .crewDescription, .crewButtonBox {
+    .crewText1, .crewText, .crewFunction, .crewName, .crewDescription, .crewButtonBox {
         text-align: center;
+    }
+    .crewFunction {
+        margin-top: 0px;
     }
     .crewButtonBox {
         margin-top: 25px;
